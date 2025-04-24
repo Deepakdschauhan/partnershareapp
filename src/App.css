@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+#fullpage {
+  display: flex;
+  height: 600px;
+  width: 100%;
+}
+
+#firsthalf {
+  border: 2px solid black;
+  height: 380px;
+  width: 30%;
+}
+#secondhalf {
+  border: 2px solid black;
+  height: 1085px;
+  width: 70%;
+  float: left;
+}
+hr {
+  border: 2px solid blue;
+}
